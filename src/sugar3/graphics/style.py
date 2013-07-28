@@ -111,9 +111,11 @@ LINE_WIDTH = zoom(2)
 
 STANDARD_ICON_SIZE = zoom(55)
 SMALL_ICON_SIZE = zoom(55 * 0.5)
+SOCIAL_POST_ICON_SIZE = zoom(55 * 1)
 MEDIUM_ICON_SIZE = zoom(55 * 1.5)
 LARGE_ICON_SIZE = zoom(55 * 2.0)
 XLARGE_ICON_SIZE = zoom(55 * 2.75)
+SOCIAL_ICON_SIZE = zoom(55 * 7)
 
 client = GConf.Client.get_default()
 FONT_SIZE = client.get_float('/desktop/sugar/font/default_size')
